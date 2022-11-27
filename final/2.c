@@ -75,9 +75,9 @@ int main()
 
  }
  printf("\nThe calculated Code Word is: ");
- for(i=0;i<c_l;i++)
+ for(i=0;i<c_l;i++){
  printf("%d",code[i]);
-
+ }
 
  printf("\nEnter your choice\n1.send with error\n2.send without error:");
  int ans;
